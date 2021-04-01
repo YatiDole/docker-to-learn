@@ -3,7 +3,8 @@
 * Always remember even a single process requires creating a whole network attached virtual machine.
 * Virtual machines provide virtual hardware (or hardware on which an operating system and other programs can be installed)
 * Docker donot use any hardware virtualization.
-* Programs running inside Docker containers interface directlywith the host’s Linux kernel
+* Programs running inside Docker containers interface directly with the host’s Linux kernel
+* Working with containers instead of software creates a consistent interface and enables the development of more sophisticated tool.
 
 # What happens when we run docker run
 * when we give a command docker run, docker lookPrograms running inside Docker containers interface directlywith the host’s Linux kernels for the image in the local computer.
