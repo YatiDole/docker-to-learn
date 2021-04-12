@@ -1,4 +1,4 @@
-# Demonstration of creating a shell script to launch
+# Demonstration of creating a shell script to launch wordpress
 
 Launch a MySQL container:
 
