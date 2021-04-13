@@ -30,6 +30,17 @@
 * We can create multiple instances of the from a single image.
 * Images are shippable units.
 
+# Lifecycle
+
+    docker images shows all images.
+    docker import creates an image from a tarball.
+    docker build creates image from Dockerfile.
+    docker commit creates image from a container, pausing it temporarily if it is running.
+    docker rmi removes an image.
+    docker load loads an image from a tar archive as STDIN, including images and tags (as of 0.7).
+    docker save saves an image to a tar archive stream to STDOUT with all parent layers, tags & versions (as of 0.7).
+
+
 ## The problems docker solves:
 
 * Isolating dependencies and software versions.
